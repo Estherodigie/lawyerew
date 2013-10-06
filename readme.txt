@@ -19,7 +19,7 @@ git push -u origin master
 cd dist
 git init
 git add . 
-git commit -m “my first remote commit”
+git commit -m "my first remote commit"
 heroku apps:create lawyerew
 heroku keys:add ~/.ssh/id_rsa.pub
 git push heroku master
