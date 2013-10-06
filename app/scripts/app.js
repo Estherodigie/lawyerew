@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('lawyerewApp', [])
+angular.module('angularBootstrapTestApp', [])
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
