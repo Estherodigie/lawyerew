@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularBootstrapTestApp')
+angular.module('lawyerEw')
   .controller('MainCtrl', ['$scope', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

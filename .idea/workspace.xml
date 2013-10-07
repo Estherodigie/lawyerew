@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eaa20cd-8a0c-49b7-a107-165c86e7c543" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/controllers/main.js" afterPath="$PROJECT_DIR$/test/spec/controllers/main.js" />
     </list>
     <ignored path="lawyerew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,10 +14,95 @@
     <file path="/Gruntfile.js" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381096139461" ignored="false" />
     <file path="/index.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381098062103" ignored="false" />
     <file path="$PROJECT_DIR$/../angular-bootstrap-test/app/views/main.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381094920261" ignored="false" />
-    <file path="/main.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381109721718" ignored="false" />
-    <file path="$PROJECT_DIR$/.tmp/styles/bootstrap.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381108976893" ignored="false" />
-    <file path="$PROJECT_DIR$/.tmp/styles/main.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381108976893" ignored="false" />
+    <file path="/main.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381112577998" ignored="false" />
     <file path="$PROJECT_DIR$/.tmp/styles/small-business.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381108976893" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/json3/test/test_browser.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/json3/page/style.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/json3/page/page.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/build/node_modules/hogan.js/web/stylesheets/skeleton.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/build/node_modules/hogan.js/web/stylesheets/layout.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/json3/index.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/js/tests/index.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/examples/starter-template.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/examples/marketing-narrow.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/examples/hero.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/examples/sticky-footer-navbar.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/examples/carousel.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/examples/sticky-footer.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/examples/fluid.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/examples/justified-nav.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/examples/signin.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/bootstrap-2.3.2.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/bootstrap-responsive-2.3.2.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/bootstrap-responsive-2.3.2.min.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/bootstrap-2.3.2.min.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/index.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/scaffolding.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/javascript.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/customize.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/getting-started.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/es5-shim/tests/lib/jasmine.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/extend.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/base-css.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/components.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/assets/css/docs.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/tests/forms.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/docs/assets/js/google-code-prettify/prettify.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/tests/navbar.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/tests/navbar-fixed-top.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/es5-shim/tests/index.min.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/tests/css-tests.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/tests/buttons.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/es5-shim/tests/index.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/tests/navbar-static-top.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/tests/css-tests.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/tests/forms-responsive.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/.htaccess" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_reset.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_breadcrumbs.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_button-groups.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_component-animations.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_tooltip.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_navs.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_tables.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_sprites.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_type.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_media.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_labels-badges.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/styles/bootstrap.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/.tmp/styles/main.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_responsive-utilities.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/bootstrap.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_accordion.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_layouts.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_dropdowns.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_navbar.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_wells.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_mixins.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_modals.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_carousel.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_pager.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_popovers.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/json3/benchmark/assets/jsperf.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_progress-bars.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278767" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_alerts.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_code.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/json3/benchmark/benchmark_browser.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_thumbnails.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_hero-unit.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/angular-scenario/angular-scenario.js" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_utilities.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_close.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_forms.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_pagination.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_buttons.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/lib/_scaffolding.scss" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/js/tests/vendor/qunit.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
+    <file path="/a.dummy" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110413273" ignored="false" />
+    <file path="/app.js" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110763537" ignored="false" />
+    <file path="/profile.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381112006531" ignored="false" />
+    <file path="/areasOfPractice.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381112999203" ignored="false" />
+    <file path="/a.js" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381113328925" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +122,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="0" selection-start="3794" selection-end="3794" vertical-scroll-proportion="0.70689654">
+            <state line="42" column="47" selection-start="1909" selection-end="1927" vertical-scroll-proportion="-21.346153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="58" selection-start="749" selection-end="749" vertical-scroll-proportion="-9.153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="areasOfPractice.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/areasOfPractice.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="43" selection-start="749" selection-end="749" vertical-scroll-proportion="-6.8846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="16" selection-start="705" selection-end="705" vertical-scroll-proportion="-4.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abedf3ee.scripts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/scripts/abedf3ee.scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="208" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/spec/controllers/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="15" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,7 +197,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="54" selection-start="780" selection-end="780" vertical-scroll-proportion="-9.807693">
+            <state line="18" column="16" selection-start="831" selection-end="831" vertical-scroll-proportion="-4.1923075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="6" selection-start="450" selection-end="450" vertical-scroll-proportion="0.6570605">
               <folding />
             </state>
           </provider>
@@ -82,7 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/styles/bootstrap.css" />
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/bower.json" />
@@ -91,7 +238,13 @@
         <option value="$PROJECT_DIR$/app/styles/small-business.css" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/test/spec/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/app/views/areasOfPractice.html" />
+        <option value="$PROJECT_DIR$/app/views/profile.html" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
       </list>
     </option>
   </component>
@@ -245,9 +398,10 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="options.lastSelected" value="Configurable.PHP.Debug" />
+    <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -300,10 +454,11 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -312,7 +467,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -379,49 +533,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="45" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="45" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -514,14 +626,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="54" selection-start="780" selection-end="780" vertical-scroll-proportion="-9.807693">
+        <state line="18" column="16" selection-start="831" selection-end="831" vertical-scroll-proportion="-4.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="705" selection-end="705" vertical-scroll-proportion="-4.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/abedf3ee.scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="208" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/spec/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="15" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="58" selection-start="749" selection-end="749" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/areasOfPractice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="43" selection-start="749" selection-end="749" vertical-scroll-proportion="-6.8846154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="3794" selection-end="3794" vertical-scroll-proportion="0.70689654">
+        <state line="42" column="47" selection-start="1909" selection-end="1927" vertical-scroll-proportion="-21.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="450" selection-end="450" vertical-scroll-proportion="0.6570605">
           <folding />
         </state>
       </provider>
