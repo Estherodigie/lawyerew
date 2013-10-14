@@ -1,0 +1,49 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">Law Office of Elliot J. Wiesner, P.C.</a>
+
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/#/areasOfPractice">Areas of Practice</a></li>
+                    <li><a href="/#/profile">Profile</a></li>
+                    <li class="active"><a href="/#/contact">Contact</a></li>
+                    <li><a href="/#/disclaimer">Disclaimer</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div ng-controller="ContactCtrl">
+        <form ng-submit="sendMessage()">
+            <label>Name</label>
+            <input type="text" id="name" ng-model="contact.name"/>
+            <label>Email</label>
+            <input type="text" id="email" ng-model="contact.email"/>
+            <label>Message</label>
+            <input type="text" id="message" ng-model="contact.message"/>
+            <br/>
+            <input type="submit" class="btn" value="Send Message">
+        </form>
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2013 Elliot J. Wiesner, P.C. All rights reserved.</p>
+
+        <p>If you have any comments or suggestions about this Web site, please e-mail the <a
+                href="mailto:brettwiesner@gmail.com">webmaster</a>.</p>
+    </footer>
+
+</div> <!-- /container -->

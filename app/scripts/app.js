@@ -13,6 +13,13 @@ angular.module('lawyerEw', [])
       .when('/areasOfPractice', {
         templateUrl: 'views/areasOfPractice.html'
       })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl'
+      })
+      .when('/disclaimer', {
+        templateUrl: 'views/disclaimer.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
