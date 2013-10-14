@@ -20,6 +20,10 @@ angular.module('lawyerEw', [])
       .when('/disclaimer', {
         templateUrl: 'views/disclaimer.html'
       })
+      .when('/messageSent', {
+        templateUrl: 'views/messageSent.html',
+        controller: 'MessageSentCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

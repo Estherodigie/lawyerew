@@ -57,6 +57,34 @@ app.configure(function(){
 
 var port = process.env.PORT || 5000;
 
+app.post('/contact', function(req, res) {
+
+  var sendgrid  = require('sendgrid')(
+    process.env.SENDGRID_USERNAME,
+    process.env.SENDGRID_PASSWORD
+  );
+
+  var messageBody = 'Email: /n' + req.body.email + '/nSubject:/n' + req.body.subject + '/nBody:/n' + req.body.message;
+
+  var payload   = {
+    to      : 'brettwiesner@gmail.com',
+    from    : 'mail@laywerEW.com',
+    subject : 'New message from someone on LawyerEW.com',
+    text    : messageBody
+  };
+
+  sendgrid.send(payload, function(err, json) {
+    if (err) { console.error(err); }
+    console.log(json);
+  });
+
+//  console.log('name: ', req.body.name);
+//  console.log('email: ', req.body.email);
+//  console.log('message: ', req.body.message);
+
+  res.send(200);
+});
+
 app.listen(port, function() {
   'use strict';
   console.log('server started '+port);
