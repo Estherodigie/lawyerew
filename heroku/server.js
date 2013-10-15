@@ -50,7 +50,7 @@ var app = express();
 
 app.configure(function(){
   'use strict';
-  app.use(express.logger('dev'));
+  //app.use(express.logger('dev'));
   app.use(express.bodyParser());
   app.use(express.static(path.join(__dirname, '../dist')));
 });
@@ -64,12 +64,12 @@ app.post('/contact', function(req, res) {
     process.env.SENDGRID_PASSWORD
   );
 
-  var messageBody = 'Email: /n' + req.body.email + '/nSubject:/n' + req.body.subject + '/nBody:/n' + req.body.message;
+  var messageBody = 'Elliot, you have received a message from visitor to lawyerEW.com. \n\nName: ' + req.body.name + '\nEmail: ' + req.body.email + '\nPhone:' + req.body.phone + '\n\nBody:\n' + req.body.message;
 
   var payload   = {
     to      : 'brettwiesner@gmail.com',
-    from    : 'mail@laywerEW.com',
-    subject : 'New message from someone on LawyerEW.com',
+    from    : 'elliot@laywerEW.com',
+    subject : 'New message from a visitor to LawyerEW.com',
     text    : messageBody
   };
 
@@ -80,6 +80,7 @@ app.post('/contact', function(req, res) {
 
 //  console.log('name: ', req.body.name);
 //  console.log('email: ', req.body.email);
+//  console.log('phone: ', req.body.phone);
 //  console.log('message: ', req.body.message);
 
   res.send(200);

@@ -24,28 +24,44 @@
 
 <div class="container">
 
-    <div ng-controller="ContactCtrl">
-        <form ng-submit="sendMessage()">
-            <label>Name</label>
-            <input type="text" id="name" ng-model="contact.name"/>
-            <label>Email</label>
-            <input type="text" id="email" ng-model="contact.email"/>
-            <label>Subject</label>
-            <input type="text" id="subject" ng-model="contact.subject"/>
-            <label>Message</label>
-            <input type="text" id="message" ng-model="contact.message"/>
-            <br/>
-            <input type="submit" class="btn" value="Send Message">
-        </form>
+    <div class="row-fluid">
+    <form ng-controller="ContactCtrl" name="contactForm" novalidate ng-submit="sendMessage()">
+        <div class="span12">
+            <div class="row-fluid">
+                <label>Your name</label>
+                <input type="text" placeholder="Name" name="name" ng-model="contact.name" ng-minlength=3 ng-maxlength=40 required />
+            </div>
+
+            <div class="row-fluid">
+                <label>Your email</label>
+                <input type="email" placeholder="Email" name="email" ng-model="contact.email" ng-minlength=3 ng-maxlength=40 required />
+            </div>
+
+            <div class="row-fluid">
+                <label>Your phone</label>
+                <input type="tel" placeholder="Phone" name="phone" ng-model="contact.phone" required />
+            </div>
+
+            <div class="row-fluid">
+                <div class="span12">
+                    <label>Message</label>
+                    <textarea id="message" style="width: 400px; height: 200px;" ng-model="contact.message" required></textarea>
+                </div>
+            </div>
+
+            <div class="row-fluid">
+                <div class="span2">
+                    <button type="submit" ng-disabled="contactForm.$invalid" class="button radius" style="margin-top: 20px">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </form>
     </div>
 
     <hr>
-
     <footer>
         <p>&copy; 2013 Elliot J. Wiesner, P.C. All rights reserved.</p>
-
-        <p>If you have any comments or suggestions about this Web site, please e-mail the <a
-                href="mailto:brettwiesner@gmail.com">webmaster</a>.</p>
+        <p>If you have any comments or suggestions about this Web site, please e-mail the <a href="mailto:brettwiesner@gmail.com">webmaster</a>.</p>
     </footer>
 
 </div> <!-- /container -->

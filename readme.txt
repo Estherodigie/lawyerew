@@ -53,8 +53,10 @@ yo angular:controller contact --minsafe
 
 TODO
 ----
-images don't package
-post contact form
+ie7 test
 Change links anchors
 put more pictures
 add a favicon
+unit testing
+e2e testing
+responsive doesnt work on ie8
