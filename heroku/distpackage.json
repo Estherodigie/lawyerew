@@ -2,7 +2,8 @@
   "name": "lawyerEw",
   "version": "0.0.0",
   "dependencies": {
-    "statik": "~1.2.5",
-    "sendgrid": "~0.3.1"
-  }
+    "sendgrid": "~0.3.1",
+    "gzippo": "~0.2.0",
+    "express": "~3.4.0"
+  },
 }
