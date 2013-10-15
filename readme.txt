@@ -53,7 +53,6 @@ yo angular:controller contact --minsafe
 
 TODO
 ----
-ie7 test
 Change links anchors
 put more pictures
 add a favicon
