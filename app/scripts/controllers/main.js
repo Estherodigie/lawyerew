@@ -7,4 +7,5 @@ angular.module('lawyerEw')
       'AngularJS',
       'Karma'
     ];
+
   }]);

@@ -1,8 +1,14 @@
-Building lawyerew site
+THE LAWYEREW WEBSITE
 ========================
 
-The setup
+OVERVIEW
+---------
+This website was built using git, grunt, yeoman, angular, heroku and bootstrap. Its meant to be developed locally on a laptop, then deployed using heroku. Everything should work locally except the mail form. Everything should be testable, including the sendmail bits.
+
+THE SETUP
 -----------------
+This is how this site was setup. I recommend referring to the dropbox/web app starter/fullyTestAppSetup.txt if you are going to create another site. This was done before I figured out e2e and unit testing.
+
 Create the lawyerew repo on github.
 Create the lawyerew directory
 cd lawyerew
@@ -35,7 +41,7 @@ heroku config:get SENDGRID_USERNAME
 app18524491@heroku.com
 heroku config:get SENDGRID_PASSWORD
 
-Modifying and changing
+MODIFYING AND CHANGING
 -----------------------
 (make some code changes)
 grunt
@@ -51,11 +57,28 @@ Maybe add a controller:
 yo angular:controller contact --minsafe
 (This produces contact.js and test/contact.js)
 
+TESTING
+--------
+Open 3 shells.
+In one type “grunt server” and you should see a page open in your browser.
+In the second type “karma start” and you should see 1 of 1 tests successful
+In the third type “karma start karma-e2e.conf.js” and you should see 1 of 1 tests successful
+Whenever you change a line, the tests should auto re-run.
+
+Getting this on godaddy
+-----------------------
+In the heroku settings give the name of the godaddy url you want to use.
+Go to godaddy, and forward example.com to www.example.com.
+ Then in the domain registry, set up a new CNAME entry.
+ Replace "www" that has a value of "@" with youapp.herokuapp.com"
+
+
 TODO
 ----
+get working on heroku
+register ew.com with site
 Change links anchors
 put more pictures
 add a favicon
 unit testing
 e2e testing
-responsive doesnt work on ie8
