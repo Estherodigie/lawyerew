@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eaa20cd-8a0c-49b7-a107-165c86e7c543" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heroku/distpackage.json" afterPath="$PROJECT_DIR$/heroku/distpackage.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lawyerew.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,31 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="13" selection-start="3448" selection-end="3448" vertical-scroll-proportion="-13.730769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="13" selection-start="3619" selection-end="3619" vertical-scroll-proportion="-16.346153">
-              <folding>
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="22" selection-start="1520" selection-end="1520" vertical-scroll-proportion="-13.961538">
+            <state line="48" column="20" selection-start="1518" selection-end="1518" vertical-scroll-proportion="-31.384615">
               <folding />
             </state>
           </provider>
@@ -144,16 +124,52 @@
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/package.json">
           <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="distpackage.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heroku/distpackage.json">
+          <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="20" selection-start="180" selection-end="180" vertical-scroll-proportion="-5.8846154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="disclaimer.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/disclaimer.html">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="13" selection-start="3985" selection-end="3985" vertical-scroll-proportion="-16.346153">
+            <state line="374" column="105" selection-start="8750" selection-end="8750" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".bowerrc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.bowerrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".editorconfig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.editorconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,15 +193,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="22" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -204,7 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/karma-e2e.conf.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/test/e2e/scenarios.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
@@ -218,8 +224,9 @@
         <option value="$PROJECT_DIR$/app/views/disclaimer.html" />
         <option value="$PROJECT_DIR$/app/views/profile.html" />
         <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/dist/package.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/heroku/distpackage.json" />
       </list>
     </option>
   </component>
@@ -655,41 +662,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/spec/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/e2e/scenarios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="374" column="105" selection-start="8750" selection-end="8750" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/messageSent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/SendgridService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -722,8 +694,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="13" selection-start="3619" selection-end="3619" vertical-scroll-proportion="-16.346153">
           <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -749,14 +721,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="374" column="105" selection-start="8750" selection-end="8750" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="22" selection-start="1520" selection-end="1520" vertical-scroll-proportion="-13.961538">
+        <state line="48" column="20" selection-start="1518" selection-end="1518" vertical-scroll-proportion="-31.384615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heroku/distpackage.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="20" selection-start="180" selection-end="180" vertical-scroll-proportion="-5.8846154">
           <folding />
