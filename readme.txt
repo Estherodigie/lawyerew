@@ -71,9 +71,10 @@ Whenever you change a line, the tests should auto re-run.
 Getting this on godaddy
 -----------------------
 In the heroku settings give the name of the godaddy url you want to use.
-Go to godaddy, and forward example.com to www.example.com.
- Then in the domain registry, set up a new CNAME entry.
- Replace "www" that has a value of "@" with youapp.herokuapp.com"
+Go to godaddy:
+    1. forward example.com to www.example.com.
+    2. Make sure the nameservers are godaddy nameservers
+    3. Then in the domain registry, set up a new CNAME entry: Replace "www" that has a value of "@" with youapp.herokuapp.com"
 
 
 TODO
