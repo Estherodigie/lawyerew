@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eaa20cd-8a0c-49b7-a107-165c86e7c543" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="DELETED" beforePath="C:\Users\brett\Dropbox\LawyerEW\2013-11-22\app\images\gavel-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\brett\Dropbox\LawyerEW\2013-11-22\app\images\gavel-book-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\brett\Dropbox\LawyerEW\2013-11-22\app\images\gavel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\brett\Dropbox\LawyerEW\2013-11-22\app\images\gavel2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\brett\Dropbox\LawyerEW\2013-11-22\app\images\scales-01.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/SendgridService.js" afterPath="$PROJECT_DIR$/app/scripts/services/SendgridService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heroku/distpackage.json" afterPath="$PROJECT_DIR$/heroku/distpackage.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma-e2e.conf.js" afterPath="$PROJECT_DIR$/karma-e2e.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma.conf.js" afterPath="$PROJECT_DIR$/karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/areasOfPractice.html" afterPath="$PROJECT_DIR$/app/views/areasOfPractice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact.html" afterPath="$PROJECT_DIR$/app/views/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/disclaimer.html" afterPath="$PROJECT_DIR$/app/views/disclaimer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/profile.html" afterPath="$PROJECT_DIR$/app/views/profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heroku/server.js" afterPath="$PROJECT_DIR$/heroku/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -19,7 +24,7 @@
     <file path="/Gruntfile.js" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381783336769" ignored="false" />
     <file path="/index.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381875510139" ignored="false" />
     <file path="$PROJECT_DIR$/../angular-bootstrap-test/app/views/main.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381094920261" ignored="false" />
-    <file path="/main.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1385150307460" ignored="false" />
+    <file path="/main.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1385158751382" ignored="false" />
     <file path="$PROJECT_DIR$/.tmp/styles/small-business.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381108976893" ignored="false" />
     <file path="$PROJECT_DIR$/dist/bower_components/json3/page/style.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
     <file path="$PROJECT_DIR$/dist/bower_components/json3/page/page.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278766" ignored="false" />
@@ -69,10 +74,10 @@
     <file path="$PROJECT_DIR$/dist/bower_components/bootstrap-sass/js/tests/vendor/qunit.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381110278768" ignored="false" />
     <file path="/a.dummy" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381717919730" ignored="false" />
     <file path="/app.js" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381709605396" ignored="false" />
-    <file path="/profile.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381112006531" ignored="false" />
-    <file path="/areasOfPractice.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381112999203" ignored="false" />
+    <file path="/profile.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1385158933361" ignored="false" />
+    <file path="/areasOfPractice.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1385388471095" ignored="false" />
     <file path="/a.js" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381113328925" ignored="false" />
-    <file path="/readme.txt" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1385150466028" ignored="false" />
+    <file path="/readme.txt" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1385153569176" ignored="false" />
     <file path="/disclaimer.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381619501335" ignored="false" />
     <file path="/contact.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381800669396" ignored="false" />
     <file path="/contact.js" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381790487660" ignored="false" />
@@ -90,6 +95,7 @@
     <file path="/messageSent.html" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1381718009106" ignored="false" />
     <file path="/karma.conf.js" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1385149835146" ignored="false" />
     <file path="/karma-e2e.conf.js" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1385149870813" ignored="false" />
+    <file path="/main.css" changelist="1eaa20cd-8a0c-49b7-a107-165c86e7c543" time="1385388493661" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,79 +118,7 @@
       <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="22" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.3991684">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="374" column="105" selection-start="8750" selection-end="8750" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendgridService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/SendgridService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="358" selection-end="369" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendgridService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/spec/services/SendgridService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messageSent.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/spec/controllers/messageSent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/spec/controllers/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/spec/controllers/contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scenarios.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/e2e/scenarios.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+            <state line="79" column="4" selection-start="2511" selection-end="2511" vertical-scroll-proportion="1.3665339">
               <folding />
             </state>
           </provider>
@@ -193,7 +127,55 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="23" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-15.038462">
+            <state line="82" column="13" selection-start="3448" selection-end="3448" vertical-scroll-proportion="-13.730769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="13" selection-start="3619" selection-end="3619" vertical-scroll-proportion="-16.346153">
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="disclaimer.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/disclaimer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="13" selection-start="3985" selection-end="3985" vertical-scroll-proportion="-16.346153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="13" selection-start="3609" selection-end="3609" vertical-scroll-proportion="-15.038462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="areasOfPractice.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/areasOfPractice.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="0" selection-start="7583" selection-end="7829" vertical-scroll-proportion="-11.769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="22" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,22 +199,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/dist/views/main.html" />
-        <option value="$PROJECT_DIR$/dist/server.js" />
-        <option value="$PROJECT_DIR$/app/views/contact.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/contact.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/dist/package.json" />
         <option value="$PROJECT_DIR$/heroku/distpackage.json" />
-        <option value="$PROJECT_DIR$/heroku/server.js" />
         <option value="$PROJECT_DIR$/karma.conf.js" />
         <option value="$PROJECT_DIR$/karma-e2e.conf.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-        <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/app/scripts/services/SendgridService.js" />
         <option value="$PROJECT_DIR$/test/e2e/scenarios.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/dist/views/profile.html" />
+        <option value="$PROJECT_DIR$/app/scripts/services/SendgridService.js" />
+        <option value="$PROJECT_DIR$/heroku/server.js" />
+        <option value="$PROJECT_DIR$/app/views/areasOfPractice.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
+        <option value="$PROJECT_DIR$/app/views/contact.html" />
+        <option value="$PROJECT_DIR$/app/views/disclaimer.html" />
+        <option value="$PROJECT_DIR$/app/views/profile.html" />
       </list>
     </option>
   </component>
@@ -373,6 +355,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2013-11-22" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2013-11-22" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -392,6 +388,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2013-11-22" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2013-11-22" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -545,7 +559,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.9247863" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20833333" sideWeight="0.9247863" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -622,94 +636,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="46" selection-end="144" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heroku/distpackage.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heroku/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="37" selection-start="714" selection-end="736" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="37" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/karma-e2e.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="6" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-15.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/SendgridService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="358" selection-end="369" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/services/SendgridService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/controllers/messageSent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/controllers/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/spec/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -731,9 +657,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/messageSent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/SendgridService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heroku/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="31" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="22" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="13" selection-start="3448" selection-end="3448" vertical-scroll-proportion="-13.730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="13" selection-start="3619" selection-end="3619" vertical-scroll-proportion="-16.346153">
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/disclaimer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="13" selection-start="3985" selection-end="3985" vertical-scroll-proportion="-16.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="13" selection-start="3609" selection-end="3609" vertical-scroll-proportion="-15.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/areasOfPractice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="7583" selection-end="7829" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="22" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.3991684">
+        <state line="79" column="4" selection-start="2511" selection-end="2511" vertical-scroll-proportion="1.3665339">
           <folding />
         </state>
       </provider>

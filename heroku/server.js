@@ -25,8 +25,8 @@ app.post('/contact', function(req, res) {
   var messageBody = 'Elliot, you have received a message from visitor to lawyerEW.com. \n\nName: ' + req.body.name + '\nEmail: ' + req.body.email + '\nPhone:' + req.body.phone + '\n\nBody:\n' + req.body.message;
 
   var payload   = {
-    to      : 'lawyerew@optonline.net',
-    from    : 'lawyerew@optonline.net',
+    to      : 'lawyerew@verizon.net',
+    from    : 'lawyerew@verizon.net',
     subject : 'New message from a visitor to LawyerEW.com',
     text    : messageBody
   };

@@ -48,11 +48,14 @@ grunt
 Add to github:
 git commit -a -m "changed some stuff"
 git push -u origin master
-(now push to heroku)
+
+Now push to heroku:
 cd dist
 git init (dunno if needed)
 git add .
+git commit -m "message"
 git push heroku master
+
 Maybe add a controller:
 yo angular:controller contact --minsafe
 (This produces contact.js and test/contact.js)
@@ -76,9 +79,6 @@ Go to godaddy, and forward example.com to www.example.com.
 TODO
 ----
 get working on heroku
-register ew.com with site
 Change links anchors
 put more pictures
 add a favicon
-unit testing
-e2e testing
