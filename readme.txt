@@ -5,6 +5,10 @@ OVERVIEW
 ---------
 This website was built using git, grunt, yeoman, angular, heroku and bootstrap. Its meant to be developed locally on a laptop, then deployed using heroku. Everything should work locally except the mail form. Everything should be testable, including the sendmail bits.
 
+THE SHELL
+-----------
+This stuff runs from using the Git Bash shell (start -> all programs -> git -> bash shell)
+
 THE SETUP
 -----------------
 This is how this site was setup. I recommend referring to the dropbox/web app starter/fullyTestAppSetup.txt if you are going to create another site. This was done before I figured out e2e and unit testing.
@@ -79,7 +83,6 @@ Go to godaddy:
 
 TODO
 ----
-get working on heroku
 Change links anchors
 put more pictures
 add a favicon
